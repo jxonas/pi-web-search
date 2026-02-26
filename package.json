@@ -1,0 +1,26 @@
+{
+  "name": "pi-web-search",
+  "version": "0.1.0",
+  "description": "Web search and web fetch tools for Pi powered by Perplexity Search API",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "files": [
+    "extensions",
+    "README.md"
+  ],
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "scripts": {
+    "build": "echo 'No build step required (jiti loads TypeScript at runtime)'",
+    "check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-ai": "*",
+    "@mariozechner/pi-coding-agent": "*",
+    "@sinclair/typebox": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
