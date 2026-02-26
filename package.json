@@ -1,6 +1,7 @@
 {
   "name": "pi-web-search",
   "version": "0.1.0",
+  "license": "MIT",
   "description": "Web search and web fetch tools for Pi powered by Perplexity Search API",
   "type": "module",
   "keywords": ["pi-package"],
